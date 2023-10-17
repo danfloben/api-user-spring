@@ -20,13 +20,16 @@ This is a sample README outlining the steps to compile, run, and generate a JAR 
 
 2. **Run the Application:**
 
+   ```sh
    mvn spring-boot:run
 
 3. **Generate the Jar Application:**
 
+   ```sh
    mvn clean package
 
 4. **Run the Jar Application:**
-
+   
+   ```sh
    java -jar target/your-application.jar
 
